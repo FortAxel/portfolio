@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    flex-direction: column;
+}
+
+header{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30%;
+    background-color: #00DEB6;
+    display: flex;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header nav button{
+    margin-left: 2rem;
+}
+
+header button{
+    height: 80%;
+    width: auto;
+    border:none;
+    background-color: transparent;
+}
+
+header button img{
+    width : 80px;
+    height: auto;
+}
+
+#retExNav{
+    display: flex;
+    align-items: center;
+    text-align: end;
+    font-family: 'Racing Sans One';
+    font-size: xx-large;
+}
+
+#retExNav p{
+    padding: 0;
+}
+
+#beforeRetEx{
+    display: flex;
+    align-items: center;
+}
+
+
+#afterRetEx{
+    display: flex;
+    align-items: center;
+    margin: 0 1rem 0 3rem;
+}
+
+#afterRetEx img{
+    transform: rotate(180deg);
+}
+
+main{
+    height: 32%;
+    display: flex;
+}
+
+#project_illustration{
+    width:55%;
+    height:100%;
+}
+
+#project_illustration img{
+    width: 100%;
+    height: 100%;
+    max-height: 30rem;
+}
+
+#project_desc{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 1rem 0 0 2rem;
+}
+
+#project_desc p{
+    text-align: start;
+    font-size: xx-large;
+}
+
+footer{
+    height: 38%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#myName{
+    padding: 2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #535353;
+    border-radius: 10rem;
+    font-size: x-large;
+}
+
+#toolsUsed p{
+    text-align: start;
+    font-size: x-large;
+}
+
+#skills p{
+    text-align: start;
+    font-size: x-large;
+}
+footer .tool{
+    height: 100%;
+    align-items: center;
+}
+footer .tool img{
+    height: 16rem;
+}
