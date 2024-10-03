@@ -78,6 +78,7 @@ footer{
     left: 0;
     bottom: 0;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: #303030;
     border-top: 1rem solid #262626;
@@ -127,4 +128,34 @@ footer{
 #right .list a:hover{
     cursor: pointer;
     background-color: #535353;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1000px) {
+    body{
+        min-height: auto;
+        min-width: auto;
+    }
+    main{
+        display: none;
+    }
+    
+    header .txt{
+        font-size: large;
+    }
+
+    footer{
+        width: 100%;
+        
+    }
+    .txt{
+        font-size: xx-large;
+    }
+    #left{
+        width: 100%;
+    }
+    #right{
+        display: none;
+    }
 }
