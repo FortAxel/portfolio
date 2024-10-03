@@ -32,5 +32,9 @@ button:hover{
     height: 13rem;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
 
 
