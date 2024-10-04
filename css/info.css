@@ -1,9 +1,9 @@
 main{
+    margin: 0;
+    padding: 0 1.7rem 0 0 ;
+    margin-bottom: 3rem;
     flex-direction: column;
     text-align: center;
-    font-size: xx-large;
-    padding: 0 1.7rem 0 0 ;
-    margin: 0;
-    margin-bottom: 3rem;
     font-family: 'Racing Sans One';
+    font-size: xx-large;
 }

@@ -1,16 +1,16 @@
 body{
-    background-color: #3A3A3A;
-    color: white;
+    min-width: 160vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
-    min-width: 160vh;
     display: flex;
+    background-color: #3A3A3A;
+    color: white;
 }
 
 .txt{
-    padding: 0 1.7rem 0 0 ;
     margin: 0;
+    padding: 0 1.7rem 0 0 ;
     text-align: end;
     font-family: 'Racing Sans One';
 }
@@ -20,12 +20,12 @@ button:hover{
 }
 
 .title{
-    font-size: 4rem;
-    padding: 0 1.7rem 0 0 ;
     margin: 0;
     margin-bottom: 3rem;
+    padding: 0 1.7rem 0 0 ;
     text-align: end;
     font-family: 'Racing Sans One';
+    font-size: 4rem;
 }
 
 .tool img{

@@ -3,17 +3,17 @@
 }
 
 header{
-    display: flex;
     height: 40%;
+    display: flex;
 }
 
 .name{
+    width: 60%;
+    height: 100%;
     margin: 0 0 0 0;
     padding: 1rem 0 0 0;
     border-right: #00DEB6 solid 1.5rem;
     border-bottom: #00DEB6 solid 1.5rem;
-    width: 60%;
-    height: 100%;
     font-size: 15px;
 }
 
@@ -49,31 +49,30 @@ main{
 }
 
 footer{
+    width: 70%;
+    height: 17%;
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 70%;
-    height: 17%;
-    background-color: #535353;
     display: flex;
     justify-content: space-between;
+    background-color: #535353;
     border-top: 1rem solid #00DEB6;
 }
 
 #buttons{
-    height: 100%;
     width: auto;
+    height: 100%;
+    padding-left: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-left: 1rem;
     background-color: transparent;
 }
 
 #buttons img{
-    height: 7rem;
     width: auto;
-    
+    height: 7rem;
 }
 
 #buttons img:hover{
@@ -90,10 +89,10 @@ footer{
 }
 
 #right .list{
-    font-size: 2rem;
     display: flex;
     flex-direction: column;
     align-content:space-around ;
+    font-size: 2rem;
 }
 
 #right .list a{
@@ -102,6 +101,6 @@ footer{
 }
 
 #right .list a:hover{
-    text-decoration: underline;
     cursor: pointer;
+    text-decoration: underline;
 }
