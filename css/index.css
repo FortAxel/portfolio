@@ -30,6 +30,7 @@ header{
 }
 
 #photo{
+    aspect-ratio: 1/1;
     width: 40%;
     display: flex;
     align-items: center;
