@@ -12,8 +12,8 @@ header{
     height: 100%;
     margin: 0 0 0 0;
     padding: 1rem 0 0 0;
-    border-right: #00DEB6 solid 1.5rem;
-    border-bottom: #00DEB6 solid 1.5rem;
+    border-right: #262626 solid 1.5rem;
+    border-bottom: #161616 solid 1.5rem;
     font-size: 15px;
 }
 
@@ -40,7 +40,7 @@ header{
 #photo img{
     width: 60%;
     height: auto;
-    border: 1rem solid #535353;
+    border: 1rem solid #262626;
 }
 
 main{
@@ -58,7 +58,7 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: #535353;
-    border-top: 1rem solid #00DEB6;
+    border-top: 1rem solid #262626;
 }
 
 #buttons{
@@ -86,7 +86,7 @@ footer{
 
 #right{
     width: 30%;
-    background-color: #00DEB6;
+    background-color: #262626;
 }
 
 #right .list{
