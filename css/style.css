@@ -29,7 +29,31 @@ button:hover{
 }
 
 .tool img{
-    height: 13rem;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.tool {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.tool:hover {
+    transform: translateY(-10px);
+}
+
+.tool::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 70%;
+    height: 70%;
+    background-color: #505050;
+    z-index: -1;
 }
 
 a{
