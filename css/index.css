@@ -130,32 +130,3 @@ footer{
     background-color: #535353;
 }
 
-/* MEDIA QUERIES */
-
-@media screen and (max-width: 1000px) {
-    body{
-        min-height: auto;
-        min-width: auto;
-    }
-    main{
-        display: none;
-    }
-    
-    header .txt{
-        font-size: large;
-    }
-
-    footer{
-        width: 100%;
-        
-    }
-    .txt{
-        font-size: xx-large;
-    }
-    #left{
-        width: 100%;
-    }
-    #right{
-        display: none;
-    }
-}

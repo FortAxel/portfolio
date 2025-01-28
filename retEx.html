@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retour d'expérience</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/retEx.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./img/portFolioIcon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">
+                <button class="buttonHome">
+                    <img src="img/icons8-accueil-500.png" alt="Bouton d'accueil">
+                </button>
+            </a>
+            <a href="./info.html">
+                <button class="buttonInfo">
+                    <img src="img/icons8-info-384.png" alt="Bouton d'informations">
+                </button>
+            </a>
+        </nav>
+        <div id="retExNav">
+            <div id="beforeRetEx">
+                <a id="prevLink"><button><img src="./img/fleche-gauche.png" alt=""></button></a>
+                <p id="prevTitle"></p>
+            </div>
+            <div id="afterRetEx">
+                <p id="nextTitle"></p>
+                <a id="nextLink"><button><img src="./img/fleche-gauche.png" alt=""></button></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="project_illustration">
+            <img id="projectImage" src="" alt="illustration projet">
+        </div>
+        <div id="project_desc">
+            <div class="title" id="projectTitle"></div>
+            <p class="txt">Cahier des charges :</p>
+            <ul id="requirements"></ul>
+        </div>
+    </main>
+    <footer>
+        <div id="myName"><p class="txt">FORTUNATO Axel</p></div>
+        <div id="toolsUsed">
+            <div class="title">Outils</div>
+            <ul id="tools"></ul>
+        </div>
+        <div id="skills">
+            <div class="title">Compétences</div>
+            <ul id="skillsList"></ul>
+        </div>
+        <div id="toolLogos" class="tool"></div>
+    </footer>
+    <script src="./js/retEx-data.js"></script>
+    <script src="./js/retEx-loader.js"></script>
+</body>
+</html>
