@@ -58,4 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('prevTitle').textContent = retexData[prevId].linkTitle;
     document.getElementById('nextTitle').textContent = retexData[nextId].linkTitle;
+
+    // page title
+    document.title = currentRetex.title;
 });

@@ -101,7 +101,7 @@ const retexData = {
             'Produire un code compréhensible',
             'Expliquer un programme et des concepts avec des mots simples'
         ],
-        toolLogos: ['./img/']
+        toolLogos: ['./img/logo_java.png']
     }
 };
 
