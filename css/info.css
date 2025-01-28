@@ -1,8 +1,10 @@
 main{
     margin: 0;
-    padding: 0 1.7rem 0 0 ;
+    padding: 0 3rem 0 3rem ;
     margin-bottom: 3rem;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     font-family: 'Racing Sans One';
     font-size: xx-large;
