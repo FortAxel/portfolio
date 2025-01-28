@@ -21,7 +21,7 @@ const retexData = {
     'robocup': {
         linkTitle: 'Application web de gestion de compétitions (Symfony)',
         title: 'Application web de gestion de compétitions',
-        image: '../img/illustration_robocup.png',
+        image: './img/illustration_robocup.png',
         requirements: [
             'Développer une application web avec Symfony',
             'Gérer une base de données',
@@ -38,7 +38,7 @@ const retexData = {
     'reseau': {
         linkTitle: 'Configuration réseau avec NextCloud (Bash)',
         title: 'Configuration réseau avec serveur NextCloud',
-        image: '../img/illustration_reseau.png',
+        image: './img/illustration_reseau.png',
         requirements: [
             'Créer un réseau sur une machine, virtuelle avec deux ordinateurs, deux serveurs et un routeur',
             'Permettre le travail groupé dans une équipe',
@@ -55,7 +55,7 @@ const retexData = {
     'pixelwar': {
         linkTitle: 'Client Pixel Waj (js)',
         title: 'Client Pixel War',
-        image: '../img/illustration_pixelWar.png',
+        image: './img/illustration_pixelWar.png',
         requirements: [
             'Créer interface utilisable pour 1 joueur à une pixel war',
             'Afficher et actualiser la grille et les joueurs en utilisant une API propriétaire'
@@ -72,7 +72,7 @@ const retexData = {
     'unideck': {
         linkTitle: 'Jeu de cartes 1 vs 1 (C#)',
         title: 'Jeu de cartes 1 vs 1',
-        image: '../img/illustration_uniDeck.png',
+        image: './img/illustration_uniDeck.png',
         requirements: [
             'Créer l\'intéraction entre le jeu et les joueurs',
             'Ajouter des fonctionnalités pour créer la complexité',
@@ -90,7 +90,7 @@ const retexData = {
     'java': {
         linkTitle: 'Atelier d\'initiation au java (java)',
         title: 'Réaliser un atelier initiation au Java',
-        image: '../img/illustration_java.png',
+        image: './img/illustration_java.png',
         requirements: [
             'Créer un jeu en Java et en créer un exercice pour les débutants visant à leur faire finir le programme',
             'Faire un tutoriel intuitif et chaleureux pour encourager ces débutants à en apprendre plus'
