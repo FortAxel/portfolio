@@ -89,7 +89,7 @@ const retexData = {
     },
     'java': {
         linkTitle: 'Atelier d\'initiation au java (java)',
-        title: 'Réaliser un atelier initiation au Java',
+        title: 'Atelier initiation au Java',
         image: './img/illustration_java.webp',
         requirements: [
             'Créer un jeu en Java et en créer un exercice pour les débutants visant à leur faire finir le programme',
@@ -102,7 +102,24 @@ const retexData = {
             'Expliquer un programme et des concepts avec des mots simples'
         ],
         toolLogos: ['./img/logo_java.webp']
+    },
+    'mini-shell': {
+        linkTitle: 'Création d\'un mini-shell (C)',
+        title: 'Mini shell',
+        image: './img/illustration_minishell.webp',
+        requirements: [
+            'Créer un shell minimaliste capable d’exécuter des commandes simples',
+            'Gérer les entrées utilisateur et la création de processus',
+            'Implémenter les fonctionnalités de base comme la navigation entre répertoires (cd), la gestion des erreurs et la sortie (exit)'
+        ],
+        tools: ['C', 'Linux', 'Bash'],
+        skills: [
+            'Maîtriser les appels système Unix (fork, exec, wait)',
+            'Gérer les entrées/sorties standard en C',
+            'Comprendre le fonctionnement d’un interpréteur de commandes'
+        ],
+        toolLogos: ['./img/logo_c.webp']
     }
 };
 
-const navigationOrder = ['robocup', 'reseau', 'pixelwar', 'towa', 'unideck', 'java'];
+const navigationOrder = ['robocup', 'mini-shell', 'reseau', 'pixelwar', 'towa', 'unideck', 'java'];

@@ -59,6 +59,9 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('prevTitle').textContent = retexData[prevId].linkTitle;
     document.getElementById('nextTitle').textContent = retexData[nextId].linkTitle;
 
+    document.getElementById('beforeArrow').alt = "Bouton pour naviguer vers " +retexData[prevId].linkTitle;
+    document.getElementById('afterArrow').alt = "Bouton pour naviguer vers " +retexData[nextId].linkTitle;
+
     // page title
     document.title = currentRetex.title;
 });
