@@ -170,6 +170,16 @@ footer{
     margin-bottom: 20px; 
 }
 
+#notification:hover{
+    cursor: pointer;
+    display: block;
+    opacity: 1;
+}
+
+.no-hover:hover {
+    display: none !important;
+}
+
 .show {
     display: block;
     transform: translateX(-50%) translateY(0); 

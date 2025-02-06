@@ -8,13 +8,14 @@
   }
 
 body{
-    min-width: 160vh;
     min-height: 100vh;
     margin: 0;
     padding: 0;
     display: flex;
     background-color: #3A3A3A;
     color: white;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .txt{

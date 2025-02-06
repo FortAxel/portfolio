@@ -1,5 +1,7 @@
-document.querySelector("#phoneNumber p").addEventListener('click',function(){
-  var number = document.querySelector("#phoneNumber p").textContent;
+const notification = document.getElementById('notification');
+
+document.querySelector('#phoneNumber p').addEventListener('click',function(){
+  const number = document.querySelector('#phoneNumber p').textContent;
   navigator.clipboard.writeText(number).then(function() {
     showNotification('Numéro copié dans le presse-papiers');
   }, function(err) {
@@ -7,14 +9,33 @@ document.querySelector("#phoneNumber p").addEventListener('click',function(){
   });
 });
 
-function showNotification(message) {
-  var notification = document.getElementById('notification');
+document.querySelector('#mail p').addEventListener('click',function(){
+  const mail = document.querySelector('#mail p').textContent;
+  console
+  navigator.clipboard.writeText(mail).then(function() {
+    showNotification('Adresse mail copiée dans le presse-papiers');
+  }, function(err) {
+    showNotification('Erreur de copie: ' + err);
+  });
+});
+
+document.getElementById('notification').addEventListener('click',function(){
+  notification.classList.add('no-hover');
+  hideNotification();
+  setTimeout(() => {
+    notification.classList.remove('no-hover');
+  }, 100);
+});
+
+const showNotification = (message) => {
   notification.textContent = message;
   notification.classList.remove('hidden');
   notification.classList.add('show');
 
-  setTimeout(function() {
-    notification.classList.remove('show');
-    notification.classList.add('hidden');
-  }, 5000); 
+  setTimeout(hideNotification, 5000); 
+};
+
+const hideNotification = () => {
+  notification.classList.remove('show');
+  notification.classList.add('hidden');
 }
