@@ -9,13 +9,15 @@ document.querySelector('#phoneNumber p').addEventListener('click',function(){
   });
 });
 
-document.querySelector('#mail p').addEventListener('click',function(){
-  const mail = document.querySelector('#mail p').textContent;
-  console
-  navigator.clipboard.writeText(mail).then(function() {
-    showNotification('Adresse mail copiée dans le presse-papiers');
-  }, function(err) {
-    showNotification('Erreur de copie: ' + err);
+document.querySelectorAll('#mail p, #mail-icon').forEach(element => {
+  element.addEventListener('click', function () {
+    const mail = document.querySelector('#mail p').textContent;
+
+    navigator.clipboard.writeText(mail).then(() => {
+      showNotification('Adresse mail copiée dans le presse-papiers');
+    }).catch(err => {
+      showNotification('Erreur de copie: ' + err);
+    });
   });
 });
 
@@ -39,3 +41,4 @@ const hideNotification = () => {
   notification.classList.remove('show');
   notification.classList.add('hidden');
 }
+
